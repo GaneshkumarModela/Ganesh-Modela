@@ -1,0 +1,61 @@
+/* Anatomy of css Syntax  */
+/*   selector(who){ property(what):value(how); }*  /
+/*   eg:body {background-color:#FFFFFF;  }
+*/
+/* pseudo class usage*/
+/* by using pseudo classes we can change the state of html element when we are hovering on them.*/
+.heading:hover{
+  color:gold;
+
+}
+/*
+img {
+  height: 200px;
+
+}*/
+.image{
+  height: 200px;
+}
+
+.education{
+  line-height: 2;
+}
+
+.my-hobbies{
+  line-height:2;
+}
+
+body {
+  background-color:#FFFFFF;
+}
+
+hr {
+
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 3px;
+  width: 3%;
+}
+h1{
+  color: #354259;
+
+}
+h3{
+  color: #66BFBF;
+}
+p{
+  color:#413F42;
+
+}
+ul{
+  color:#413F42;
+}
+ol{
+  color:#413F42;
+}
+table{
+  color:#413F42;
+}
+a{
+  color:#11999E;
+}

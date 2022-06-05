@@ -33,14 +33,18 @@ hr {
   width: 3%;
 }
 
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
-}
-
-p {
-  line-height: 2;
 }
 
 .top-cloud {
@@ -63,10 +67,6 @@ p {
 .social-media {
   width: 40px;
   height: 40px;
-}
-
-a {
-  color: #11999E;
 }
 
 .skill-row {
@@ -109,7 +109,8 @@ a {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: "Montserrat", sans-serif;;
+  font-family: "Montserrat", sans-serif;
+  ;
   color: white;
   font-size: 22px;
   padding: 10px 20px 10px 20px;
@@ -128,8 +129,14 @@ a {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 10px;
+}
+.footer-link-1{
+  padding-right: 5px;
+}
+.footer-link-2{
+  padding-left: 5px;
 }
 
 .copy-rights {
